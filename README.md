@@ -1,3 +1,19 @@
+# Library 
+![Capture d’écran 2024-02-05 à 17 57 01](https://github.com/Robi04/AngularProject/assets/63416313/3690c71c-e72a-4088-aff3-f6d80702918e)
+To run this project you need to clone this repo, and then ```run ng serve``` at the root to run it locally.
+You'll have the choice between :
+- The Books list which display all books, if you click on one it will show some more details.
+- The Members list which display a table with all info about the members
+- The Loans list which display a table with all info about the loans
+- Contact Form in which you can fill a form and activate a pop up inside the page
+
+Those pages links are available on a navbar which is the layout and so only the rest of the body is re-rendered when there is an http request
+We simulate an api from the json files
+There is one service for each kind of component : 
+- Book
+- Member
+- Loan
+
 # Angular project - Subject
 
 The Project Is To Develop A Front-End App For A Public Library That Displays :
