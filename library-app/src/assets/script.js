@@ -12,5 +12,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
 document.getElementById("contactForm").onsubmit = function (event) {
   var formData = new FormData(event.target);
-  alert("Message sent successfully!");
+  alert("Le message a été envoyé");
 };
